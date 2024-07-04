@@ -2,7 +2,7 @@
 
 ## What is this project?
 
-This project was built during the course "Advanced Programming" which I took during my Computer Science degree.
+This project was built during the course "Advanced Programming," which I took during my Computer Science degree at Bar-Ilan University.
 
 I did this project with two friends from the degree program, and the main idea of the project was to create a look-alike Facebook Android app and Facebook website that work the same as the original Facebook.
 
