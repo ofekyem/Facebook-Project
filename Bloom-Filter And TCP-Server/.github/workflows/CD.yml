@@ -1,0 +1,28 @@
+name: CD
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker
+      uses: docker/setup-buildx-action@v1
+
+    - name: Build and push Docker image
+      env:
+        DOCKER_USERNAME: ${{ secrets.SECRET_NAME }}
+        DOCKER_PASSWORD: ${{ secrets.PASSWORD }}
+      run: |
+        docker buildx create --use
+        docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+        rm -Rf build/
+        docker build -t ofekyemini87/ex1 .
+        docker push ofekyemini87/ex1:latest

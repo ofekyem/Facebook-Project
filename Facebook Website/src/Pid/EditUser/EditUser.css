@@ -1,0 +1,12 @@
+.editb{
+    margin: 10px;
+}
+.dark-mode .mb-3{
+    color: #bebebe;
+}
+.dark-mode .form-control::placeholder{
+    color: grey;
+}
+label{
+    margin:10px;
+}

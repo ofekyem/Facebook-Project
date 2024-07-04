@@ -1,0 +1,111 @@
+.post1{
+    display:flex; 
+    justify-content: center;
+    text-align: center;
+}
+.dark-mode .post1{
+    background-color: #333;
+    color: white;
+}
+.dark-mode .card1{
+    background-color: #2a2424;
+    
+}
+.post {
+    width:610px;
+    background:#fff; 
+    border-radius: 6px;
+    padding:-20px;
+    color:#626262;
+    margin: 20px auto;
+    margin-left: 16px;
+}
+.dark-mode .post{
+    background-color: #333;
+    color: white;
+}
+.text-profile{
+    display:block
+}
+.user-profile span{
+    font-size:13px;
+    color: #9a9a9a;
+}
+.post .user-profile{
+    padding: 20px;
+}
+.post .user-profile img{
+    width:45px;
+    border-radius: 50%;
+    margin-right:10px;
+    height: 50px;
+}
+
+
+.edit{
+    background-color: white;
+    padding: 0;
+}
+.dark-mode .edit{
+    background-color: #2a2424;
+    color: #bebebe;
+}
+.topPost{
+    display: flex;
+}
+
+.editButton {
+    border: none;
+    background-color: white;
+    margin: 1px;
+}
+.card-body{
+    justify-content: left;
+    word-wrap: break-word;
+    padding:20px;
+    width: 70ch;
+} 
+.card-img-top {
+    width: 300px; 
+    height: 300px; 
+}
+.card-text-editTextArea {
+    width: 100%;
+    height: 100%;
+}
+.dark-mode .dropdown-item{
+    background-color: #333;
+    color: #bebebe;
+}
+.dark-mode .dropdown-menu{
+    background-color: #333;
+}
+.dark-mode .card-text-editTextArea{
+    background-color: #333;
+    color: #bebebe;
+}
+.dark-mode .card-text{
+    color: #bebebe;
+}
+.friend_button{
+    border:none;
+    background-color: white;
+}
+.friend_button:hover{
+    background: grey;
+} 
+.dark-mode .friend_button{
+    background: #333;
+    color: #bebebe;
+} 
+.dark-mode .friend_button:hover{
+    background: #d8d9dd;
+    color:black;
+} 
+
+.p:hover{
+    cursor: pointer;
+}
+.avatar__img:hover{
+    cursor: pointer;
+}

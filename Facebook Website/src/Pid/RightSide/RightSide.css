@@ -1,0 +1,81 @@
+.rightbar_title{
+    margin-top: 10px;
+    display:flex; 
+    align-items:center; 
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.rightbar_title h4{
+    font-weight:600;
+    font-size: 16px;
+
+}
+.rightbar_title p{
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+} 
+.rightbar_title p:hover {
+    cursor: pointer;
+}
+.rightbar_title a{
+    color: teal;
+} 
+.events{
+    display:flex; 
+    font-size:14px;
+    margin-bottom: 20px;
+
+}
+.events:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.left_events{
+    border-radius: 10px;
+    height:85px; 
+    width:85px;
+    margin-right: 16px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+.dark-mode .left_events{
+    background-color: #f0f2f5;
+}
+.dark-mode .location{
+    color: grey;
+}
+.info{
+    font-size: 12px;
+    color:blue;
+} 
+.dark-mode .info{
+    color:teal;
+} 
+.info:hover{
+    cursor:pointer;
+} 
+.left_events span{
+    position:absolute; 
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color: rgb(156, 57, 57); 
+    color:#fff; 
+    font-size:10px; 
+    padding:4px 0;
+} 
+.adpic{
+    width:100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.dark-mode .see{
+    color: teal;
+}
+.adpic:hover{
+    cursor:pointer;
+}

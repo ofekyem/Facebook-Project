@@ -1,0 +1,48 @@
+.friends-section{
+    background-color: white;
+    margin-left: 10px; 
+    padding-bottom:10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.dark-mode .friends-section{
+    background: #2a2424;
+    color: #bebebe;
+} 
+.dark-mode .friends-section p{
+    color: #bebebe;
+} 
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.friends-box{
+    height: 200px; 
+    overflow-y: auto; 
+    display: grid; 
+    grid-template-columns: repeat(4,auto);
+    grid-gap:10px; 
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+.f-img{
+    width: 100px;
+    height:100px;
+}
+.title-box h3{
+    font-size:25px; 
+    font-weight:600;
+}
+.title-box i{
+    padding-right:10px;
+    top:-20px;
+}
+.listf:hover{
+    cursor:pointer;
+}

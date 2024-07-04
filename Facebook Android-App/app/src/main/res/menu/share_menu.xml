@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_share_facebook"
+        android:title="@string/share_on_facebook"/>
+    <item
+        android:id="@+id/action_share_twitter"
+        android:title="@string/share_on_twitter"/>
+    <item
+        android:id="@+id/action_share_email"
+        android:title="@string/share_via_email"/>
+</menu>

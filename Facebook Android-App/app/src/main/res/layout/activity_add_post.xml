@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post"
+            android:backgroundTint="@color/colorPrimaryLight"
+            android:textColor="@color/colorAccentDark"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_post"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/textColor" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:backgroundTint="@color/colorPrimaryLight"
+            android:textColor="@color/colorAccentDark"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextShare"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:hint="@string/add_post_edit_text"
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        android:textColor="@color/textColor"
+        android:importantForAutofill="no" />
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:contentDescription="@string/selected_image" />
+    <Button
+        android:id="@+id/btnPhotoDel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccentDark"
+        android:text="@string/delete_photo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/addPicToPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="onAddPicToPostClick"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/picture_icon_content"
+                android:src="@drawable/picture_svgrepo_com" />
+
+            <EditText
+                android:id="@+id/addPostContent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picutre_or_video"
+                android:paddingStart="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:editable="false"
+                android:focusable="false"
+                android:background="@null"
+                tools:ignore="RtlSymmetry"
+                android:inputType="text"
+                android:textColor="@color/textColor"
+                android:autofillHints="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="@color/textColor"
+                android:src="@drawable/people_svgrepo_com"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/people_icon" />
+
+            <EditText
+                android:id="@+id/addPostContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_people"
+                android:paddingStart="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:editable="false"
+                android:focusable="false"
+                android:background="@null"
+                android:autofillHints=""
+                android:inputType="text"
+                android:textColor="@color/textColor"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/video_camera_963_svgrepo_com"
+                android:layout_gravity="center_vertical"
+                app:tint="@color/textColor"
+                android:contentDescription="@string/live_icon" />
+
+            <EditText
+                android:id="@+id/addPostContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/live"
+                android:paddingStart="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:editable="false"
+                android:focusable="false"
+                android:background="@null"
+                tools:ignore="RtlSymmetry"
+                android:autofillHints=""
+                android:textColor="@color/textColor"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:tint="@color/textColor"
+                android:src="@drawable/letter_aa_large_svgrepo_com"
+                android:contentDescription="@string/Aa" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:editable="false"
+                android:focusable="false"
+                android:paddingStart="8dp"
+                android:text="@string/background_color"
+                tools:ignore="RtlSymmetry"
+                android:textColor="@color/textColor"
+                android:autofillHints=""
+                android:inputType="text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

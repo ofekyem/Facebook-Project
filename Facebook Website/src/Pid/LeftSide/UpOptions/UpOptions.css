@@ -1,0 +1,6 @@
+.up_options{
+    border-bottom: 1px solid #ccc;
+}
+.dark-mode .up_options{
+    border-bottom: none;
+}

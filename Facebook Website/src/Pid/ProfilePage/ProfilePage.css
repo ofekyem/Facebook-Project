@@ -1,0 +1,89 @@
+.profile-container{
+    
+    display:flex; 
+    flex-direction: column; 
+    
+    
+}
+.warper{
+    display:flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+.top-section{
+    background-color: white;
+    padding-right:200px; 
+    margin-left: 80px;
+    padding-bottom:10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+    
+}
+.dark-mode .top-section{
+    background-color: #2a2424;
+    color:#bebebe;
+}
+.bottom-section {
+   
+    border-radius: 4px;
+    padding: 20px;
+    
+    margin-bottom: 20px;
+     
+}
+
+.dark-mode .bottom-section {
+    background-color: #333;
+    color: #bebebe;
+}
+.pd-row{
+    display:flex;
+    align-items: flex-start;
+
+} 
+.pd-image{
+    width:250px; 
+    height:150px;
+    margin-right: 10px; 
+    border-radius: 6px;
+} 
+.op {
+    text-align: left; 
+}
+
+.op h3{
+    font-size:25px; 
+    font-weight:600;
+    
+}
+.op p{
+    font-size: 13px;
+    color:blue;
+}
+.dark-mode .op p{
+    color:teal;
+} 
+.pd-right{
+    margin-right: -250px;
+    padding-left: 280px;
+    
+}
+.fb{
+    border:none;
+    background-color: white;
+}
+.fb:hover{
+    background: grey;
+} 
+.dark-mode .fb{
+    background: #2a2424;
+    color: #bebebe;
+} 
+.dark-mode .fb:hover{
+    background: #d8d9dd;
+    color:black;
+} 
+.dark-mode .ermes{
+    color: #bebebe;
+}

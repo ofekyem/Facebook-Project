@@ -1,0 +1,18 @@
+.list-group-item{
+    border: 0;
+    background-color: transparent;
+}
+.dark-mode .list-group-item{
+    color:grey;
+}
+
+.list-group-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+} 
+.leftbar{
+    color: grey;
+}
+
+
+
