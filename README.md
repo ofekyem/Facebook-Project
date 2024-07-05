@@ -32,5 +32,13 @@ Well, if you just want to see what my website and app can do without running it 
 
 *The Facebook Android App*: [https://www.youtube.com/watch?v=onclwdYc8EU](https://www.youtube.com/watch?v=onclwdYc8EU)
 
-## And that's it, Enjoy!
+## And that's it, Enjoy! 
+Written and Developed by:  
+
+[Ofek Yemini](https://github.com/ofekyem) 
+
+[Eliya Rabia](https://github.com/EliyaRabia) 
+
+[Or Shmuel](https://github.com/orshmuel9)
+
 
