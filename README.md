@@ -14,7 +14,7 @@ This project was made with the programming languages C++, HTML/CSS/JavaScript, a
 
 It was also developed in a React environment and uses a Node.js server.
 
-The main software used to create this website were VS Code, Android Studio, and MongoDB.
+The main softwares used to create this website were VS Code, Android Studio, and MongoDB.
 
 ## How can I run it myself?
 
