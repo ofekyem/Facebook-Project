@@ -15,7 +15,7 @@ Now, pay attention that the server ip that the code is using right now is 10.0.2
 if you are interested in running this app on your own
 Android phone you need to make sure that your computer is connected to the same Wi-Fi as your phone and you need to put the Wi-Fi ip (ipv4) right here in the login file that is located in 
 
-AndroidFacebook\app\src\main\java\com\example\androidfacebook\login.java. 
+Facebook Android-App\app\src\main\java\com\example\androidfacebook\login.java
 
 you need to change this ip to your Wi-Fi ip in this bolded line: 
 
