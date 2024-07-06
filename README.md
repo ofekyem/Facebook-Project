@@ -28,9 +28,9 @@ So please, Read The Wiki!
 
 Well, if you just want to see what my website and app can do without running it yourself, my friends and I made two videos: one for the Android app and one for the website. These videos show what each app can do!
 
-*The Facebook Website*: [https://www.youtube.com/watch?v=7xheojkxw5M](https://www.youtube.com/watch?v=7xheojkxw5M)
+[*The Facebook Website Video*](https://www.youtube.com/watch?v=7xheojkxw5M)
 
-*The Facebook Android App*: [https://www.youtube.com/watch?v=onclwdYc8EU](https://www.youtube.com/watch?v=onclwdYc8EU)
+[*The Facebook Android App Video*](https://www.youtube.com/watch?v=onclwdYc8EU)
 
 ## And that's it, Enjoy! 
 Written and Developed by:  
