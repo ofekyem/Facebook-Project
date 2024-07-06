@@ -4,7 +4,7 @@
 
 This project was built during the course "Advanced Programming," which I took during my Computer Science degree at Bar-Ilan University.
 
-I did this project with two friends from the degree program, and the main idea of the project was to create a look-alike Facebook Android app and Facebook website that work the same as the original Facebook.
+I worked on this project with two friends from my degree program. The main idea of the project was to create a look-alike Facebook Android app and Website that function similarly to the original Facebook.
 
 The project was originally made in four phases, and this repo unites the whole process and shows the final result.
 
