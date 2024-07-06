@@ -5,13 +5,11 @@ because it won't work without it! if you already done it continue...
 
 If you want to read more about the bloom filter tcp server or the node js server please enter their repos and read their ReadMe files!
 
-After you have done it, you can start with cloning this repository.
+After you have done it,
 
-You can start with donwload a zip of the folder "Facebook Website" and extract it.
+You can start with open the the folder "Facebook Website" that is in this repo in Vs-Code.
 
-Now, open the cloned folder in vs-code 
-
-When you already in the folder, you need to run this command;
+When you already in the folder, you need to run this command in the terminal of Vs-Code;
 
 npm install
 
