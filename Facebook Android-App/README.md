@@ -5,11 +5,9 @@ because it won't work without it! if you already done it continue...
 
 If you want to read more about the bloom filter tcp server or the node js server please enter their repos and read their ReadMe files!
 
-After you have done it, You can start with download a zip of the folder "Facebook Android-App" and extract it.
+After you have done it, You can start with opening the Android Studio software,
 
-Now open the Android Studio software, 
-
-Go to the software menu choose "open" and pick the folder "Facebook Android-App" that is in this repo. 
+Now, go to the software menu choose "open" and pick the folder "Facebook Android-App" that is in this repository. 
 
 Now, pay attention that the server ip that the code is using right now is 10.0.2.2 that is working with the android studio emulators, 
 if you are interested in running this app on your own
