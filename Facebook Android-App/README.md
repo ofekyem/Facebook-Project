@@ -9,7 +9,7 @@ After you have done it, You can start with download a zip of the folder "Faceboo
 
 Now open the Android Studio software, 
 
-Go to the software menu choose "open" and pick the cloned repository "Facebook Android-App". 
+Go to the software menu choose "open" and pick the folder "Facebook Android-App" that is in this repo. 
 
 Now, pay attention that the server ip that the code is using right now is 10.0.2.2 that is working with the android studio emulators, 
 if you are interested in running this app on your own
