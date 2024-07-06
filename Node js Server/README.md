@@ -11,7 +11,7 @@ In the part4 of the project we were requested to connect our server into a tcp s
 so, in order to make sure everything works well together you must also run the tcp server, 
 Make sure you followed the readme of the folder "Bloom-Filter and TCP-Server" and run it before this one!!!!
  
-If you want to read more about the bloom filter tcp server or the webstie or the android app please enter their folders and read their ReadMe files!
+If you want to read more about the bloom filter, the tcp server,the webstie or the android app please enter their folders and read their ReadMe files!
 
 If you want to make the tcp server work on your computer you need to put the ip of your computer that the tcp server is running on,
 (if you use a vmware virtual machine, you need to take its ip).
@@ -42,9 +42,7 @@ Android: https://www.youtube.com/watch?v=onclwdYc8EU
 
 ## How to Run The Server? 
 
-In order to run this server you first need to download the zip file of the folder "Node js Server" and extract it.  
-
-now open the folder in Vs-Code
+In order to run this server you first need to open the folder "Node js Server" that is in this repo in Vs-Code
 
 Now you will also need to set up MongoDBCompass to work with this server, 
 Open MongoDBCompass and start by clicking connect when you have this url in the box: 
@@ -55,7 +53,7 @@ After that, add a database named "DB" and add for it 3 collections: "users", "po
 
 ![addDB](picsForREADME/2.png)
 
-After you have done that, go into the cloned folder and run in terminal the command: 
+After you have done that, go into the folder "Node js Server" and run in your terminal (Or in Vs-Code terminal) the command: 
 
 npm install 
 
