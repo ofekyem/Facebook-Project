@@ -2,19 +2,19 @@
 
 ## What is this project?
 
-This project was built during the course "Advanced Programming," which I took during my Computer Science degree at Bar-Ilan University.
+This project was developed during the "Advanced Programming" course, which I took as part of my Computer Science degree at Bar-Ilan University.
 
-I worked on this project with two friends from my degree program. The main idea of the project was to create a look-alike Facebook Android app and Website that function similarly to the original Facebook.
+I worked on this project with two friends from my degree program. The main idea of the project was to create a look-alike Facebook Android app and website that function similarly to the original Facebook.
 
-The project was originally made in four phases, and this repo unites the whole process and shows the final result.
+The project was originally made in four phases, and this repository unites the whole process and showcases the final result.
 
-In this app, you can perform the same features that are available on the original Facebook platform, such as creating a user, adding a post, adding a comment to a post, making friends, and more.
+In this app, you can perform the same features available on the original Facebook platform, such as creating a user, adding a post, adding a comment to a post, making friends, and more.
 
-This project was made with the programming languages C++, HTML/CSS/JavaScript, and Java.
+This project was developed using C++, HTML/CSS/JavaScript, and Java.
 
-It was also developed in a React environment and uses a Node.js server.
+It was also built in a React environment and uses a Node.js server.
 
-The main softwares used to create this website were VS Code, Android Studio, and MongoDB.
+The main software tools used to create this website were VS Code, Android Studio, and MongoDB.
 
 ## How can I run it myself?
 
