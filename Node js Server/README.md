@@ -27,7 +27,7 @@ Also u can find your ip in linux running the command ifconfig
 ![alt text](picsForREADME/iplinux.png)
 
 
-## some remarks for part4 
+## Some Remarks 
 
 In the env file that is in this folder (Node js Sever) you have some urls that will be inserted into the bloom filter (in CONNECTION_URL), and you also have its size and number of hash functions that are working on the insertion(in INITIALIZATION). 
 
