@@ -20,9 +20,9 @@ you need to change the address to your address in the ENV.local:
 
 ![alt text](picsForREADME/ENV.png)
 
-after you have done that make sure your tcp server is already running and continue. 
+After you have done that make sure your tcp server is already running and continue. 
 
-also u can find your ip in linux running the command ifconfig
+Also u can find your ip in linux running the command ifconfig
 
 ![alt text](picsForREADME/iplinux.png)
 
@@ -61,8 +61,9 @@ And after it finished, you can run the server with the command:
 
 node app.js 
 
-right now your server is running and you can use it for React and Android apps 
-make sure you don't close the terminal of the running node js, because it will close the server...
+Right now your server is running and you can use it for React and Android apps. 
+
+Make sure you don't close the terminal of the running node js, because it will close the server...
 
 ## And thats it! please enjoy using our apps!
 Written by: 
