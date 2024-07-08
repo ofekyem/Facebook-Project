@@ -34,12 +34,6 @@ In the env file that is in this folder (Node js Sever) you have some urls that w
 If you want to add some urls change the env file in CONNECTION_URL,Each URL need to be by our regax that means: this regular expression will match any string that starts with "http" or "https", followed by "://", followed by one or more non-whitespace characters. (look at those 6 examples that you already have there. also notice that each url is seperated by ',' ). 
 
 
-## Here are 2 videos that show what our apps can do
-
-React: https://www.youtube.com/watch?v=7xheojkxw5M 
-
-Android: https://www.youtube.com/watch?v=onclwdYc8EU
-
 ## How to Run The Server? 
 
 In order to run this server you first need to open the folder "Node js Server" that is in this repo in Vs-Code
