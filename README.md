@@ -26,7 +26,7 @@ So please, Read The Wiki!
 
 ## It's too long! Can you summarize this whole project?
 
-Well, if you just want to see what my website and app can do without running it yourself, my friends and I made two videos: one for the Android app and one for the website. These videos show what each app can do!
+Well, if you just want to see what the website and the Android app can do without running it yourself, my friends and I made two videos: one for the Android app and one for the website. These videos show what each app can do!
 
 [*The Facebook Website Video*](https://www.youtube.com/watch?v=7xheojkxw5M)
 
