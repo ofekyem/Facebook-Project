@@ -4,7 +4,7 @@
 
 This project was developed during the "Advanced Programming" course, which I took as part of my Computer Science degree at Bar-Ilan University.
 
-I worked on this project with two friends from my degree program. The main idea of the project was to create a look-alike Facebook Android app and website that function similarly to the original Facebook.
+I worked on this project with two friends from my degree program. The main idea of the project was to create a Clone of Facebook Android app and website that function similarly to the original Facebook.
 
 The project was originally made in four phases, and this repository unites the whole process and showcases the final result.
 
