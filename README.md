@@ -29,7 +29,7 @@ The main software tools used to create this website were VS Code, Android Studio
 
 ## How can I run it myself?
 
-For running this whole project in a comfortable way, you can read the Wiki step by step.
+For running this whole project in a comfortable way, you can read the [Wiki](https://github.com/ofekyem/Facebook-Project/wiki) step by step.
 
 There is a full explanation there for the entire installation and running process. 
 
