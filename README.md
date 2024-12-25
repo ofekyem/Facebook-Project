@@ -21,7 +21,7 @@ You can see the original process of our work together in these repositories:
 
 In this app, you can perform the same features available on the original Facebook platform, such as creating a user, adding a post, adding a comment to a post, making friends, and more.
 
-This project was developed using C++, HTML/CSS/JavaScript, and Java.
+This project was developed using C++, HTML, CSS, JavaScript, and Java.
 
 It was also built in a React environment and uses a Node.js server.
 
